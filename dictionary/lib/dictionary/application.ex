@@ -5,7 +5,7 @@ defmodule Dictionary.Application do
   def start(_type, _args) do
     import Supervisor.Spec
 
-    children = [worker(Dictionary.WordList, [])]
+    children = [worker(WordList, [])]
 
     options = [
       name: Dictionary.Supervisor,
