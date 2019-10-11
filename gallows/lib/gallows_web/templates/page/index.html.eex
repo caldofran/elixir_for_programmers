@@ -1,3 +1,0 @@
-<section class="phx-hero">
-  <%= plural_of(@produce, @count) %>
-</section>
